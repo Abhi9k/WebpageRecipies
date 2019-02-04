@@ -1,0 +1,83 @@
+.navbar {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	background-color: rgb(33, 150, 243);
+}
+.nav-right, .nav-left {
+	flex-grow: 1;
+	display: flex;
+}
+
+.nav-left {
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.nav-right {
+	justify-content: flex-end;
+}
+
+.brand {
+	border: solid 1px;
+	border-radius: 5px;
+	min-width: 80px;
+	height: 60px;
+	text-align: center;
+	margin-left: 5px;
+	font-size: 25px;
+	/*box-shadow: 0 0 14px rgba(0, 0, 0, 0.24), 0 14px 28px rgba(0, 0, 0, 0.48);*/
+}
+
+.brand p {
+	line-height: 60px;
+	margin: 0px;
+	text-align: center;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+}
+
+.navbar p {
+	line-height: 70px;
+}
+
+.dash-name {
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+#data-export, #undo-selection {
+	width: 40px;
+}
+
+#viz-type {
+	width: 150px;
+	display: flex;
+	align-items: center;
+}
+
+#refresh-interval {
+	width: 120px;
+}
+
+.nav-dropdown-body {
+	height: 70px;
+}
+
+.nav-dropdown select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border: 0px;
+	height: 100%;
+	background-color: rgb(33, 150, 243);
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+}

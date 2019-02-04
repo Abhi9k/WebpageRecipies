@@ -1,0 +1,32 @@
+<div class="navbar">
+	<div class="nav-left">
+		<div class="brand">
+			<p><a href="/">VTSIL</a></p>
+		</div>
+		<div class="dash-name">
+			<p>Life of Goodwin Hall</p>
+		</div>
+	</div>
+	<div class="nav-right">
+		<div id="data-export" onclick="ondataexportclick()">
+			<p><a href="javascript:void(0);"><i class="fa fa-file-export"></i></a></p>
+		</div>
+		<div id="undo-selection">
+			<p><a href="javascript:void(0);" onclick="onundoselectionclick()"><i class="fa fa-undo"></i></a></p>
+		</div>
+		<div id="viz-type" onchange="onviztypechanged()">
+			<div class="nav-dropdown">
+				<div class="nav-dropdown-body">
+					<select id="select-viz-type">
+						<option value="live">Live</option>
+						<option value="single-sensor">Individual</option>
+						<option vlaue="compare-sensor">Compare</option>
+					</select><span><i class="fa fa-caret-down"></i></span>
+				</div>
+			</div>
+		</div>
+		<div id="refresh-interval">
+			<p><a href="javascript:void(0);" onclick="onrefreshintervalclick()"><i class="fa fa-redo"></i> Every 5 sec</a></p>
+		</div>
+	</div>
+</div>
